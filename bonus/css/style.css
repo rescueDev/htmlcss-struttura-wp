@@ -3,6 +3,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 /* contenitore */
@@ -16,6 +17,36 @@ header {
 
   /* debug */
   background-color: red;
-  height: 200px;
+  height: 300px;
   /* fine debug */
+}
+
+/* contenitore header */
+.header-container {
+  background-image: url(../img/montagna.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/* div per opacità */
+.transbox {
+  background-color: white;
+  opacity: 0.5;
+  height: 300px;
+  border:1px solid black;
+
+}
+
+/* titolo del blog */
+div.transbox h2 {
+  text-align: center;
+  padding: 120px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  border:1px solid black;
 }
