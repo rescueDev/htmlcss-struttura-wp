@@ -20,7 +20,9 @@
 
 /* sfondo body */
 body {
-  background-color:orange;
+  background-image: url(../img/background.png);
+  background-size: cover;
+
 }
 
 /* header */
@@ -113,7 +115,15 @@ section {
 
 /* footer */
 footer {
-  height: 150px;
+
   width: 100%;
+  /* debug */
+  height: 150px;
   background-color: purple;
+  /* fine debug */
+}
+
+footer span {
+  text-align: center;
+  font-size: 14px;
 }
