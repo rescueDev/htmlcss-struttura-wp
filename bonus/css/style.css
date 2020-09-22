@@ -29,6 +29,7 @@ header {
   /* debug */
   background-color: red;
   height: 300px;
+  margin-bottom: 30px;
   /* fine debug */
 }
 
@@ -92,10 +93,27 @@ aside {
 section {
   float:left;
   width: 50%;
+  margin: 0 5%;
+
   /* debug */
-  background-color: white;
+  /* background-color: white; */
   /* height: 200px; */
   /* fine debug */
 }
 
 /* caselle whitebox stile */
+.white-box {
+  font-size: 14px;
+  background-color: lightgrey;
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* footer */
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: purple;
+}
