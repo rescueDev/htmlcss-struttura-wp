@@ -1,0 +1,85 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* contenitore */
+.container {
+  margin: 10px 10px;
+}
+
+/* header */
+header {
+  /* debug */
+  background-color: yellow;
+  height: 200px;
+  /* fine debug */
+}
+
+/* parte principale */
+main {
+  /* debug */
+  /* background-color: green;  */
+  /* height: 200px; */
+}
+
+/*  contenitore widgets*/
+.right-block {
+  float: left;
+  width: 25%;
+  margin-left: 1%;
+  margin-top: 1%;
+  /* debug */
+  /* background-color: pink; */
+  /* height: 200px; */
+  /* fine debug */
+}
+
+/* blocco sinistro */
+.left-block {
+  float: left;
+  width: 25%;
+  margin-right: 1%;
+  margin-top: 1%;
+  /* debug */
+  background-color: pink;
+  height: 200px;
+  /* fine debug */
+}
+
+/* section */
+section {
+  float: left;
+  width: 46%;
+  margin: 1% 1%;
+  /* debug */
+  background-color: purple;
+  height: 300px;
+  /* fine debug */
+}
+
+/* widgets del blocco destro */
+.widgets {
+  /* debug */
+  margin-bottom: 2%;
+  background-color: pink;
+  height: 140px;
+  /* fine debug */
+}
+
+/* footer */
+footer {
+  /* debug */
+  background-color: lightblue;
+  height: 100px;
+  /* fine debug */
+}
