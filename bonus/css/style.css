@@ -63,6 +63,7 @@ div.transbox h2 {
 
 /* menu nav */
 nav {
+  margin-top:10px;
   border:1px solid black;
   height: 40px;
   background-color: lightblue;
